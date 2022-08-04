@@ -4,6 +4,7 @@
   "description": "Backend Server for Battle Cards",
   "main": "index.ts",
   "scripts": {
+    "start": "ts-node  ./src/index.ts",
     "test": "jest --watchAll --detectOpenHandles --testPathPattern=./__test__/",
     "dev": "nodemon index.ts"
   },
